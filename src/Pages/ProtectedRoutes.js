@@ -28,6 +28,10 @@ const routes = [
     path: "/checkout/*",
     element: <CheckoutPage />,
   },
+  {
+    path: "*",
+    element: <CheckoutPage />,
+  },
 ];
 
 const ProtectedRoutes = () => {
