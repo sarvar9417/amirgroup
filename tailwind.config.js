@@ -36,7 +36,7 @@ module.exports = {
     fontSize: {
       xs: ["12px", { lineHeight: "14px" }],
       sm: ["14px", { lineHeight: "16px", letterSpacing: "-0.3px" }],
-      md: ["16px", { lineHeight: "19px", letterSpacing: "-0.3px" }],
+      base: ["16px", { lineHeight: "19px", letterSpacing: "-0.3px" }],
       lg: ["22px", { lineHeight: "26px" }],
     },
   },

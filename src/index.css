@@ -1,39 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .app {
+    @apply h-screen w-full overflow-hidden;
+  }
+
+  .page-routes {
+    @apply flex h-full w-full flex-col font-gilroy;
+  }
+
+  .protected-routes {
+    @apply flex h-full w-full flex-row overflow-hidden;
+  }
+
+  .checkout {
+    @apply flex h-full flex-col justify-between;
+  }
+
+  .sidebar {
+    @apply h-full w-[16.44rem] min-w-[16.44rem] rounded-tr-[1.875rem] bg-blue-for-admin;
+  }
+
+  /* ProductCards */
+  .productcards{
+    @apply flex h-full flex-col justify-between overflow-hidden
+  }
+
+  .productcards-cards{
+    @apply grid h-5/6 grid-cols-5  gap-3 overflow-scroll;
+  }
+
+  .productcards-link{
+   @apply flex w-full  flex-col justify-between rounded-[0.626rem] bg-white p-3 shadow-md
+  }
+
+  .price-monthly{
+    @apply mr-2 bg-pink-800 px-2 py-1 text-[13px] text-white
+  }
+
+  .productcard-image{
+    @apply relative mb-1 flex h-[10.5rem] w-full justify-center rounded bg-background
+  }
+
+  .active-navlink {
+    @apply my-2 ml-[1.875rem] flex w-full rounded-l-full bg-white py-[0.875rem] pl-[1.875rem] text-base text-blue-for-admin;
+  }
+
+  .navlink {
+    @apply my-2 ml-[1.875rem] flex w-full items-center py-[0.875rem] pl-[1.875rem] text-base text-white;
+  }
+
+  .search-input {
+    @apply w-11/12 rounded-l-full py-3 px-6 text-grey outline-none;
+  }
+
+  .search-button {
+    @apply flex w-1/12 items-center justify-center rounded-r-full bg-green;
+  }
+
+
+  /* ProductInfo */
+  .basket{
+    @apply absolute -top-7 right-4 flex h-[3.75rem] w-[3.75rem] items-center justify-center rounded-full bg-pink-900
+  }
+
+  .add-button{
+    @apply w-full py-4 text-white bg-green rounded-r-full rounded-l-full text-center
+  }
+}
+
 @font-face {
-    font-family: "Gilroy";
-    font-weight: bold;
-    font-style: normal;
-    src: local("Gilroy Bold"), local("Gilroy-Bold"),
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: normal;
+  src: local("Gilroy Bold"), local("Gilroy-Bold"),
     url("../public/font/Gilroy-Bold.woff2") format("woff2"),
     url("../public/font/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy Medium"), local("Gilroy-Medium"),
+  font-family: "Gilroy";
+  src: local("Gilroy Medium"), local("Gilroy-Medium"),
     url("../public/font/Gilroy-Medium.woff2") format("woff2"),
     url("../public/font/Gilroy-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy Regular"), local("Gilroy-Regular"),
+  font-family: "Gilroy";
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
     url("../public/font/Gilroy-Regular.woff2") format("woff2"),
     url("../public/font/Gilroy-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
+  font-family: "Gilroy";
+  src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
     url("../public/font/Gilroy-Semibold.woff2") format("woff2"),
     url("../public/font/Gilroy-Semibold.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
+  font-weight: 600;
+  font-style: normal;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
