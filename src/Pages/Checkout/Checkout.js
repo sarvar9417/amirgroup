@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useLocation, useParams, useRoutes } from "react-router-dom";
+import React from "react";
+import { useRoutes } from "react-router-dom";
 import { routes } from "./constants";
 import { rightMini } from "../../Icons/icons";
-import { find } from "lodash";
-import { products } from "../../Datas/Products";
 
 const Checkout = () => {
   return (
