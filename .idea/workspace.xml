@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9ed4e2-f12f-4e76-ba4f-86a0d3edf612" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/AddButton/AddButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CountOfProducts/CountOfProducts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Loader/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavbarLink/NavbarLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageName/PageName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Pagination/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ProductCard/ProductCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ProductCards/ProductCards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ProductInfo/ProductInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SearchProduct/SearchProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sidebar/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Iconly/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/airPods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/galaxy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/iPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Checkout/Checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Orders/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/PageRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Products/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ProtectedRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/amirgroup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/amirgroup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="cb9ed4e2-f12f-4e76-ba4f-86a0d3edf612" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +81,7 @@
       <workItem from="1667615451832" duration="92000" />
       <workItem from="1667615563917" duration="7796000" />
       <workItem from="1667648161540" duration="598000" />
-      <workItem from="1667650772940" duration="1229000" />
+      <workItem from="1667650772940" duration="1622000" />
     </task>
     <servers />
   </component>
