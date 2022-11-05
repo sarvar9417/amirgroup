@@ -1,7 +1,6 @@
 {
   "name": "amirgroup",
   "version": "0.1.0",
-  "homepage": "https://sarvar9417.github.io/",
   "private": true,
   "dependencies": {
     "lodash": "^4.17.21",
@@ -13,8 +12,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "amirgroup -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
