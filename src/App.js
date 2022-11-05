@@ -1,16 +1,21 @@
-import React, { Suspense } from "react";
-import Loader from "./Components/Loader/Loader";
-
-const Login = React.lazy(() => import("./Pages/Login/Login"));
-const PageRoutes = React.lazy(() => import("./Pages/PageRoutes"));
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import PageRoutes from "./Pages/PageRoutes";
 
 function App() {
-  const logged = true;
   return (
-    <div className='app'>
-      <Suspense fallback={<Loader />}>
-        {logged ? <PageRoutes /> : <Login />}
-      </Suspense>
+    <div className="app">
+      <div className="page-routes">
+        <Navbar />
+        <div className="protected-routes">
+          <Router>
+            <Sidebar />
+            <PageRoutes />
+          </Router>
+        </div>
+      </div>
     </div>
   );
 }

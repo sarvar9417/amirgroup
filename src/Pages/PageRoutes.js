@@ -1,16 +1,47 @@
 import React from "react";
-import Navbar from "../Components/Navbar/Navbar";
-import Sidebar from "../Components/Sidebar/Sidebar";
-import ProtectedRoutes from "./ProtectedRoutes";
+import { Route, Routes } from "react-router-dom";
+import Main from "./Main/Main";
+import Orders from "./Orders/Orders";
+import Products from "./Products/Products";
+import Reviews from "./Reviews/Reviews";
+import Checkout from "./Checkout/Checkout";
+import { map, uniqueId } from "lodash";
+
+const routes = [
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "/orders",
+    element: <Orders />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
+  },
+  {
+    path: "/reviews",
+    element: <Reviews />,
+  },
+  {
+    path: "/checkout/*",
+    element: <Checkout />,
+  },
+  {
+    path: "*",
+    element: <Checkout />,
+  },
+];
 
 const PageRoutes = () => {
   return (
-    <div className="page-routes">
-      <Navbar />
-      <div className="protected-routes">
-        <Sidebar />
-        <ProtectedRoutes />
-      </div>
+    <div className="protected-route">
+      <Routes>
+        {map(routes, ({ path, element }) => (
+          <Route key={uniqueId("route")} path={path} element={element} exact />
+        ))}
+      </Routes>
     </div>
   );
 };
