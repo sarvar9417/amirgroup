@@ -1,13 +1,14 @@
-import { find, map, uniqueId } from "lodash";
+import { find } from "lodash";
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../../Datas/Products";
-import { checkout, checked } from "../../Icons/icons";
+import { checkout } from "../../Icons/icons";
 import PageName from "../PageName/PageName";
 import AddButton from "../AddButton/AddButton";
 import ImagesSlider from "../ImagesSlider/ImagesSlider";
 import Info from "../Info/Info";
 import { data } from "./constants";
+import Stocks from "../Stocks/Stocks";
 
 const ProductInfo = () => {
   const id = Number(useParams().id);
@@ -30,37 +31,7 @@ const ProductInfo = () => {
           <ImagesSlider product={product} />
           <Info price={price} monthly={monthly} />
         </div>
-        <div className="w-full">
-          <h3 className="text-green my-2">Акции</h3>
-          {map(
-            stocks,
-            ({ icon, text, subtext, title, checked: check }, index) => (
-              <div
-                className="w-full flex p-5 border-b border-[#e4e7ec]"
-                key={uniqueId("")}
-              >
-                <div className="pr-4 pt-1">{icon}</div>
-                <div className="w-full">
-                  <p className="font-medium">{text}</p>
-                  {subtext && <p>{subtext}</p>}
-                  <p className="text-grey">{title}</p>
-                </div>
-                <div className="pr-7">
-                  <button
-                    className={`${
-                      check
-                        ? "bg-green border-green "
-                        : "border-[#e4e7ec] bg-white"
-                    } w-6 h-6 rounded flex items-center justify-center border`}
-                    onClick={() => handleStocks(index)}
-                  >
-                    {check && checked}
-                  </button>
-                </div>
-              </div>
-            )
-          )}
-        </div>
+        <Stocks handleStocks={handleStocks} stocks={stocks} />
       </div>
       <AddButton />
     </div>
