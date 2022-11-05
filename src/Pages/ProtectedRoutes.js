@@ -33,7 +33,7 @@ const routes = [
 const ProtectedRoutes = () => {
   const protectedRoutes = useRoutes(routes);
   return (
-    <div className='m-5 mr-[3.75rem] min-h-max  w-full rounded-[6px] bg-background px-7 py-4'>
+    <div className="m-5 mr-[3.75rem] min-h-max  w-full rounded-[6px] bg-background px-7 py-4">
       {protectedRoutes}
     </div>
   );

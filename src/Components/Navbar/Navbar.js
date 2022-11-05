@@ -1,5 +1,5 @@
 import React from "react";
-import { user, ring } from "../../Iconly/icons";
+import { user, ring } from "../../Icons/icons";
 
 const Navbar = () => {
   const notifications = 1;

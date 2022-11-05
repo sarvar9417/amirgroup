@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { disount, gift, updated } from "../../Iconly/icons";
+import { disount, gift, updated } from "../../Icons/icons";
 
 const ProductCard = ({
   name,
@@ -22,7 +22,9 @@ const ProductCard = ({
         </div>
         <img src={image} alt={name} className="my-4" />
       </div>
-      <h3 className="text-[15px]">{name}</h3>
+      <h3 className="text-[15px] whitespace-nowrap overflow-hidden w-full text-ellipsis">
+        {name}
+      </h3>
       <p className="text-[15px] font-medium">
         {price.toLocaleString("ru-RU")} сум
       </p>

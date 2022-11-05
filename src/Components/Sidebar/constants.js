@@ -9,7 +9,7 @@ import {
   productActive,
   review,
   reviewActive,
-} from "../../Iconly/icons";
+} from "../../Icons/icons";
 
 const navLinks = [
   {
