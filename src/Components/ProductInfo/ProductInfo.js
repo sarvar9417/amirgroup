@@ -41,8 +41,8 @@ const ProductInfo = () => {
               >
                 <div className="pr-4 pt-1">{icon}</div>
                 <div className="w-full">
-                  <p>{text}</p>
-                  {subtext && <p>{text}</p>}
+                  <p className="font-medium">{text}</p>
+                  {subtext && <p>{subtext}</p>}
                   <p className="text-grey">{title}</p>
                 </div>
                 <div className="pr-7">
