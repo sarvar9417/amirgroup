@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9ed4e2-f12f-4e76-ba4f-86a0d3edf612" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Pages/PageRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PageRoutes.js" afterDir="false" />
-    </list>
+    <list default="true" id="cb9ed4e2-f12f-4e76-ba4f-86a0d3edf612" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +19,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -84,7 +89,7 @@
       <workItem from="1667615563917" duration="7796000" />
       <workItem from="1667648161540" duration="598000" />
       <workItem from="1667650772940" duration="14236000" />
-      <workItem from="1667789016147" duration="650000" />
+      <workItem from="1667789016147" duration="1075000" />
     </task>
     <servers />
   </component>
