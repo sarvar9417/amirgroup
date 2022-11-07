@@ -2,6 +2,7 @@ import phone from "../Images/phone.png";
 import iphone from "../Images/iPhone.png";
 import airPods from "../Images/airPods.png";
 import galaxy from "../Images/galaxy.png";
+
 export const products = [
   {
     id: 1,

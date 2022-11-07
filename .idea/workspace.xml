@@ -45,13 +45,6 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
-  </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
     <bower.json value="" />
