@@ -66,7 +66,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Смартфон Samsung G...",
+    name: "Смартфон Samsung Galaxy A32 4/64GB Black",
     image: phone,
     images: [iphone, phone, airPods, galaxy],
     isGift: true,
@@ -78,7 +78,7 @@ export const products = [
   },
   {
     id: 7,
-    name: "Смартфон Apple iphon...",
+    name: "Смартфон Apple iphone 12 64GB Black",
     image: iphone,
     isGift: false,
     images: [iphone, phone, airPods, galaxy],
@@ -90,7 +90,7 @@ export const products = [
   },
   {
     id: 8,
-    name: "Наушники Apple Airpo...",
+    name: "Наушники Apple Airpod Pro",
     image: airPods,
     isGift: false,
     images: [iphone, phone, airPods, galaxy],
@@ -102,7 +102,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Samsung Galaxy Z Fold...",
+    name: "Samsung Galaxy Z Fold2 5G 256GB Mystic Bronze",
     image: galaxy,
     images: [iphone, phone, airPods, galaxy],
     isGift: true,
@@ -114,7 +114,7 @@ export const products = [
   },
   {
     id: 10,
-    name: "Смартфон Apple iphon...",
+    name: "Смартфон Apple iphone",
     image: iphone,
     isGift: false,
     images: [iphone, phone, airPods, galaxy],

@@ -1,4 +1,4 @@
-import { map, uniqueId } from "lodash";
+import { filter, map, uniqueId } from "lodash";
 import React, { useState } from "react";
 import CountOfProducts from "../CountOfProducts/CountOfProducts";
 import PageName from "../PageName/PageName";
@@ -8,18 +8,30 @@ import SearchProduct from "../SearchProduct/SearchProduct";
 import { products } from "../../Datas/Products";
 
 const ProductCards = () => {
+  const [currentProducts, setCurrentProducts] = useState(products);
+  const [currentPage, setCurrentPage] = useState(0);
   const productsCount = 121;
   const countPage = 10;
-  const [currentPage, setCurrentPage] = useState(0);
+
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    const searchProducts = filter(products, (product) =>
+      product.name.toLowerCase().includes(value.toLowerCase())
+    );
+    setCurrentProducts(searchProducts);
+  };
   return (
     <>
       <PageName pagename={"Оформить заказ"} />
-      <SearchProduct placeholder={"Поиск по названию товара"} />
+      <SearchProduct
+        placeholder={"Поиск по названию товара"}
+        onChange={handleSearch}
+      />
       <div className="productcards">
         <CountOfProducts count={productsCount} />
         <div className="productcards-cards">
           {map(
-            products,
+            currentProducts,
             ({
               name,
               image,
