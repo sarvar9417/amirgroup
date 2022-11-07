@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Main from "./Main/Main";
 import Orders from "./Orders/Orders";
 import Products from "./Products/Products";
@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: "*",
-    element: <Checkout />,
+    element: <Navigate to="/" replace={true} />,
   },
 ];
 
