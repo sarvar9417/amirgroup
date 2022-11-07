@@ -35,13 +35,12 @@ const routes = [
 ];
 
 const PageRoutes = () => {
+  const routesList = map(routes, ({ path, element }) => (
+    <Route key={uniqueId("route")} path={path} element={element} exact />
+  ));
   return (
     <div className="protected-route">
-      <Routes>
-        {map(routes, ({ path, element }) => (
-          <Route key={uniqueId("route")} path={path} element={element} exact />
-        ))}
-      </Routes>
+      <Routes>{routesList}</Routes>
     </div>
   );
 };
